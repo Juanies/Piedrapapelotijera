@@ -1,0 +1,50 @@
+body{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.juego{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton{
+  border-radius: 0.4em;
+  margin: 0.5em;  
+  border: none;
+  transition: background-color 0.4s linear;
+  width: 10em;
+  height: 10em;
+}
+
+.boton:hover{
+  background-color: #cacaca;
+  transition: background-color 0.4s linear;
+}
+
+.imagenpiedrapapelopiedra{
+  height: 10em;
+  width: 10em;
+}
+
+
+.titulos{
+  text-align: center;
+}
+
+.resultados{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.elegir{
+  display: flex;
+  justify-content: center;
+  max-width: 30em;
+  flex-wrap: wrap;
+}
