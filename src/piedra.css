@@ -48,3 +48,8 @@ body{
   max-width: 30em;
   flex-wrap: wrap;
 }
+
+.confe{
+  position: fixed;
+  z-index: -1;
+}

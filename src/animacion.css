@@ -1,0 +1,70 @@
+.juego{
+    animation-duration: 3.5s;
+    animation-name: vibracion;
+}
+
+@keyframes vibracion{
+    0% {
+        transform: translateX(0em);
+      }
+      5% {
+        transform: translateX(0.5em);
+      }
+      10% {
+        transform: translateX(-0.5em);
+      }
+      15% {
+        transform: translateX(0.5em);
+      }
+      20% {
+        transform: translateX(-0.5em);
+      }
+      25% {
+        transform: translateX(0.5em);
+      }
+      30% {
+        transform: translateX(-0.5em);
+      }
+      35% {
+        transform: translateX(0.5em);
+      }
+      40% {
+        transform: translateX(-0.5em);
+      }
+      45% {
+        transform: translateX(0.5em);
+      }
+      50% {
+        transform: translateX(-0.5em);
+      }
+      55% {
+        transform: translateX(0.5em);
+      }
+      60% {
+        transform: translateX(-0.5em);
+      }
+      65% {
+        transform: translateX(-0.5em);
+      }
+      70% {
+        transform: translateX(-0.5em);
+      }
+      75% {
+        transform: translateX(-0.5em);
+      }
+      80% {
+        transform: translateX(-0.5em);
+      }
+      85% {
+        transform: translateX(-0.5em);
+      }
+      90% {
+        transform: translateX(-0.5em);
+      }
+      95% {
+        transform: translateX(-0.5em);
+      }
+      100% {
+        transform: translateX(0.5em);
+      }
+}
