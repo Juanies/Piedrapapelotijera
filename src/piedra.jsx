@@ -44,7 +44,10 @@ function App() {
 
 
   return (
-    <div className="juego">
+
+
+    
+    <div className={resultado === messageLose?'juego':''}>
       <div className="titulos">
         <h1>Piedra papel o tijera</h1>
         <h2>¿Qué eliges?</h2>

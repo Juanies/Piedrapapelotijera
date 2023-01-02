@@ -1,6 +1,7 @@
 .juego{
     animation-duration: 3.5s;
     animation-name: vibracion;
+    transition: all 0.9s ease-in;
 }
 
 @keyframes vibracion{
@@ -68,3 +69,4 @@
         transform: translateX(0.5em);
       }
 }
+
